@@ -1,0 +1,36 @@
+{
+  "name": "restaurant-ordering-system",
+  "version": "1.0.0",
+  "description": "Projeto da disciplica de desenvolvimento back-end do curso de engenharia de software (4 periodo)",
+  "keywords": [
+    "back-end",
+    "javascript",
+    "restaurante",
+    "sistema",
+    "pedidos",
+    "js"
+  ],
+  "homepage": "https://github.com/Nicolas-Oliveira543/restaurant-ordering-system#readme",
+  "bugs": {
+    "url": "https://github.com/Nicolas-Oliveira543/restaurant-ordering-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolas-Oliveira543/restaurant-ordering-system.git"
+  },
+  "license": "ISC",
+  "author": "Nicolas Nascimento Santos de Oliveira",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"tsx watch server.js",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}
