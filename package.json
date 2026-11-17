@@ -1,0 +1,51 @@
+{
+  "name": "restaurant-ordering-system",
+  "version": "1.0.0",
+  "description": "Projeto da disciplica de desenvolvimento back-end do curso de engenharia de software (4 periodo)",
+  "keywords": [
+    "back-end",
+    "restaurante",
+    "sistema",
+    "pedidos",
+    "ts",
+    "api"
+  ],
+  "homepage": "https://github.com/Nicolas-Oliveira543/restaurant-ordering-system#readme",
+  "bugs": {
+    "url": "https://github.com/Nicolas-Oliveira543/restaurant-ordering-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolas-Oliveira543/restaurant-ordering-system.git"
+  },
+  "license": "ISC",
+  "author": "Nicolas Nascimento Santos de Oliveira",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "dev": "node --watch --env-file=.env --import=tsx/esm src/server.ts",
+    "build": "tsc",
+    "start": "node --env-file.env dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.4",
+    "@types/express": "^5.0.6",
+    "@types/supertest": "^7.2.1",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "@vitest/ui": "^5.1.0",
+    "express": "^5.2.1",
+    "supertest": "7.3.2",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1",
+    "vitest": "5.1.0"
+  }
+}
